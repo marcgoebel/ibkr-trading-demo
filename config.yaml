@@ -1,0 +1,21 @@
+connection:
+  host: "127.0.0.1"
+  port: 7497          # Paper Trading TWS (use 7496 for live, 4002 for IB Gateway paper)
+  client_id: 1
+
+trading:
+  symbol: "AAPL"
+  bar_size: "5 mins"
+  duration: "2 D"
+  sma_fast: 20
+  sma_slow: 50
+
+risk:
+  max_position_pct: 10       # Max 10% of portfolio per single position
+  max_open_positions: 5
+  daily_loss_limit: 500      # USD
+  min_buying_power: 1000     # USD
+
+logging:
+  log_dir: "logs"
+  level: "INFO"
