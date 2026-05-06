@@ -7,6 +7,8 @@
 
 Demo project showcasing Interactive Brokers API integration — connection management, market data, order execution, and a simple trading bot architecture.
 
+![SMA crossover bot run](docs/screenshots/trade.png)
+
 ## Features
 
 - TWS API connection with auto-reconnect (exponential backoff, context manager)
@@ -45,6 +47,8 @@ python run.py --mode portfolio
 ```bash
 python run.py --mode portfolio
 ```
+
+![Portfolio view](docs/screenshots/portfolio.png)
 
 ```
 === Account Summary ===
