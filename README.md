@@ -31,7 +31,7 @@ In TWS: `File → Global Configuration → API → Settings`, enable
 ## Quick start
 
 ```bash
-git clone https://github.com/<your-username>/ibkr-trading-demo.git
+git clone https://github.com/marcgoebel/ibkr-trading-demo.git
 cd ibkr-trading-demo
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
